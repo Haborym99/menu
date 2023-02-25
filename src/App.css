@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px white;
+  font-family: "Josefin Slab", "Prata", "serif";
+}
+
+body {
+  background-color: #fffff0;
+  background-image: url("../public/images/noises.svg");
+  color: black;
+  user-select: none;
+  text-shadow: 1px 1px white;
+}
+
+#restaurant_info_container {
+  width: 80%;
+}
+#restaurant_name {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+#restaurant_intro {
+  margin: 0%;
+  margin-bottom: 1%;
+  font-size: smaller;
+  font-style: italic;
+  text-align: center;
+}
+
+#menu {
+  position: relative;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+}
+
+#type_of_dishes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#type_of_dishes > button {
+  width: 30%;
+  border: 2px solid gray;
+  border-top: 0;
+  border-radius: 0px 0px 10px 10px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 30px;
+  color: inherit;
+  background-color: #fffff080;
+}
+
+#dishe_choices_li_main {
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0%;
+  margin: 0%;
+  background-color: #fffff080;
+  overflow: hidden;
+}
+
+#dishe_pic {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0%;
+  z-index: -1;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+#dishe_pix:hover {
+  z-index: 2;
+}
+
+#dishe_choices_li_sub {
+  font-size: 100%;
+}
+
+#dishe_choices_ul_container {
+  height: 100%;
+  padding: 1%;
+}
+
+#dishe_choices_ul {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  list-style: none;
+  gap: 2%;
+  padding: 0%;
+  width: 98%;
+}
+
+#dishe_choices_ul_sub {
+  position: relative;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  width: 80%;
+  padding: 0%;
+  overflow: hidden;
+  font-size: x-large;
+}
+
+#dish_name {
+  font-size: xxx-large;
+}
+
+#pages_management {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pages_management > button {
+  border: 2px solid gray;
+  border-bottom: 0;
+  background-color: transparent;
+  width: 20%;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: bolder;
+  border-radius: 10px 10px 0 0;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 30px;
+  bottom: 0%;
+  color: inherit;
+  background-color: #fffff080;
+  cursor: pointer;
+}
+
+#command {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  width: 20%;
+  height: 100%;
+  border-left: 2px solid gray;
+}
+
+#commande_selection {
+  padding: 5%;
+  list-style: none;
+  align-self: center;
+  overflow: auto;
+  height: 80%;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#selection {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+#total {
+  position: fixed;
+  right: 0%;
+  width: 20%;
+  bottom: 2%;
+  text-align: center;
+}
