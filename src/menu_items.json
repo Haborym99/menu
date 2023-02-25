@@ -5,7 +5,7 @@
       "name": "Caprese Salad",
       "description": "Fresh mozzarella cheese, juicy tomatoes, and fragrant basil drizzled with olive oil and balsamic glaze.",
       "price": 8,
-      "image": "./images/caprese_salad.jpg",
+      "image": "/images/caprese_salad.jpg",
       "image_author": "Christine Isakzhanova on unsplash"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Shrimp Cocktail",
       "description": "Succulent shrimps served with a zesty cocktail sauce and a wedge of lemon.",
       "price": 12,
-      "image": "./images/shrimp_cocktail.jpg",
+      "image": "/images/shrimp_cocktail.jpg",
       "image_author": "8photo on Freepik"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Bruschetta",
       "description": "Toasted baguette slices topped with fresh diced tomatoes, basil, garlic, and olive oil.",
       "price": 6,
-      "image": "./images/bruschetta.jpg",
+      "image": "/images/bruschetta.jpg",
       "image_author": "Mike van den bos on unsplash"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Mushroom Soup",
       "description": "A creamy soup made with fresh mushrooms, cream, and thyme.",
       "price": 6,
-      "image": "./images/mushroom_soup.jpg",
+      "image": "/images/mushroom_soup.jpg",
       "image_author": "Dmitry Kovalchuk on unsplash"
     }
   ],
@@ -39,7 +39,7 @@
       "name": "Beef Wellington",
       "description": "A tender filet mignon wrapped in flaky puff pastry and served with a red wine reduction.",
       "price": 30,
-      "image": "./images/beef_wellington.jpg",
+      "image": "/images/beef_wellington.jpg",
       "image_author": "Loija Nguyen on unsplash"
     },
     {
@@ -47,7 +47,7 @@
       "name": "Grilled Salmon",
       "description": "A juicy salmon fillet seasoned with lemon pepper and grilled to perfection. Served with a side of steamed vegetables.",
       "price": 25,
-      "image": "./images/grilled_salmon.jpg",
+      "image": "/images/grilled_salmon.jpg",
       "image_author": "CA Creative on unsplash"
     },
     {
@@ -55,7 +55,7 @@
       "name": "Pesto Pasta",
       "description": "Fresh pasta tossed in a creamy pesto sauce with cherry tomatoes and parmesan cheese.",
       "price": 16,
-      "image": "./images/pesto_pasta.jpg",
+      "image": "/images/pesto_pasta.jpg",
       "image_author": "Eater Collective on unsplash"
     },
     {
@@ -63,7 +63,7 @@
       "name": "BBQ Ribs",
       "description": "Slow-cooked pork ribs smothered in a sweet and tangy BBQ sauce. Served with coleslaw and baked beans.",
       "price": 20,
-      "image": "./images/bbq_ribs.jpg",
+      "image": "/images/bbq_ribs.jpg",
       "image_author": "Alexandru-Bogdan Ghita on unsplash"
     }
   ],
@@ -73,7 +73,7 @@
       "name": "Tiramisu",
       "description": "Layers of espresso-soaked ladyfingers and creamy mascarpone cheese topped with cocoa powder.",
       "price": 8,
-      "image": "./images/tiramisu.jpg",
+      "image": "/images/tiramisu.jpg",
       "image_author": "Furkan Dokuzlar on unsplash"
     },
     {
@@ -81,7 +81,7 @@
       "name": "Chocolate Cake",
       "description": "Decadent chocolate cake with layers of chocolate mousse and a rich chocolate ganache.",
       "price": 9,
-      "image": "./images/chocolate_cake.jpg",
+      "image": "/images/chocolate_cake.jpg",
       "image_author": "Pesce Huang on unsplash"
     },
     {
@@ -89,7 +89,7 @@
       "name": "Cheesecake",
       "description": "Creamy vanilla cheesecake with a graham cracker crust and your choice of raspberry or chocolate topping.",
       "price": 7,
-      "image": "./images/cheesecake.jpg",
+      "image": "/images/cheesecake.jpg",
       "image_author": "Luiz Carlos Santi on unsplash"
     },
     {
@@ -97,7 +97,7 @@
       "name": "Crème Brûlée",
       "description": "Silky smooth vanilla custard with a caramelized sugar topping.",
       "price": 7,
-      "image": "./images/creme_brulee.jpg",
+      "image": "/images/creme_brulee.jpg",
       "image_author": "Orkun Orcan on unsplash"
     }
   ],
@@ -107,7 +107,7 @@
       "name": "Soda",
       "description": "Coca-Cola, Sprite, or Fanta.",
       "price": 2,
-      "image": "./images/soda.jpg",
+      "image": "/images/soda.jpg",
       "image_author": "Krzysztof Hepner on unsplash"
     },
     {
@@ -115,7 +115,7 @@
       "name": "Iced Tea",
       "description": "Iced green tea",
       "price": 3,
-      "image": "./images/tea.jpg",
+      "image": "/images/tea.jpg",
       "image_author": "Jenifer Pallian on unsplash"
     },
     {
@@ -123,7 +123,7 @@
       "name": "Wine",
       "description": "Our finest wine",
       "price": 200,
-      "image": "./images/wine.jpg",
+      "image": "/images/wine.jpg",
       "image_author": "Roberta Sorge on unsplash"
     }
   ]

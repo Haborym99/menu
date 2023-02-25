@@ -8,14 +8,14 @@
 }
 
 body {
-  background-color: #fffff0;
-  background-image: url("../public/images/noises.svg");
+  background-image: url("/public/images/noises.svg");
   color: black;
   user-select: none;
   text-shadow: 1px 1px white;
 }
 
 #restaurant_info_container {
+  margin-top: 1%;
   width: 80%;
 }
 #restaurant_name {
@@ -52,7 +52,6 @@ body {
   border-top: 0;
   border-radius: 0px 0px 10px 10px;
   text-transform: uppercase;
-  background-color: transparent;
   cursor: pointer;
   font-weight: bolder;
   font-size: larger;
@@ -134,7 +133,7 @@ body {
 #pages_management > button {
   border: 2px solid gray;
   border-bottom: 0;
-  background-color: transparent;
+  background-color: #fffff080;
   width: 20%;
   text-transform: uppercase;
   font-size: medium;
@@ -145,7 +144,6 @@ body {
   height: 30px;
   bottom: 0%;
   color: inherit;
-  background-color: #fffff080;
   cursor: pointer;
 }
 
@@ -182,4 +180,68 @@ body {
   width: 20%;
   bottom: 2%;
   text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+  #restaurant_info_container {
+    width: 100%;
+  }
+  #type_of_dishes > button {
+    width: 30%;
+    text-transform: unset;
+    background-color: transparent;
+    font-size: unset;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 25px;
+    background-color: #fffff080;
+  }
+  #menu {
+    width: 100%;
+  }
+  #dishe_choices_ul_container {
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+  }
+  #dishe_choices_ul {
+    grid-template-columns: auto;
+  }
+  #dishe_choices_li_main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  #dish_name {
+    font-size: 100%;
+  }
+  #dishe_choices_ul_sub {
+    width: 100%;
+  }
+  #dishe_choices_li_sub {
+    font-size: initial;
+  }
+  #pages_management > button {
+    width: 40%;
+    text-transform: unset;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 25px;
+    bottom: 0%;
+  }
+  #command {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  #commande_selection {
+    padding: 1%;
+  }
+  #total {
+    position: relative;
+    width: 100%;
+    bottom: 0%;
+  }
 }
